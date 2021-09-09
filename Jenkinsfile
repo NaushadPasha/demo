@@ -5,11 +5,11 @@ pipeline {
   }
   stages{
       
-       /*   stage('git checkout'){
+         stage('git checkout'){
         steps{
                git 'https://github.com/NaushadPasha/demo.git'
              }
-        }*/
+        }
      stage('Terraform Init'){
         steps{
            sh '''cd /home/ubuntu/adastra-test1
